@@ -1,0 +1,38 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Tool caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.benchmarks/
+
+# Packaging artifacts
+*.egg-info/
+build/
+dist/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+.tox/
+
+# Environment files (real secrets) - .env.example must stay tracked
+.env
+.env.local
+.env.*.local
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Author's local reference material (not part of the published repository)
+MD examples/
